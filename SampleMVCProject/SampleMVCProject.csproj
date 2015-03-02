@@ -109,15 +109,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\OkanArea\Controllers\" />
     <Folder Include="Areas\OkanArea\Models\" />
-    <Folder Include="Areas\OkanArea\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\OkanArea\Controllers\UrunController.cs" />
     <Compile Include="Areas\OkanArea\OkanAreaAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -135,6 +134,9 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\OkanArea\Views\web.config" />
+    <Content Include="Areas\OkanArea\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\OkanArea\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\OkanArea\Views\Urun\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
